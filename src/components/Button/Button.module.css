@@ -1,0 +1,17 @@
+.button {
+    width: 180px;
+    height: 54px;
+    color: var(--color-white-200);
+    background-color: transparent;
+    cursor: pointer;
+    border: 3px solid var(--color-white-200);
+    border-radius: 10px;
+    font-size: clamp(16px, 4vw, 20px);
+    font-weight: 700;
+
+    &:hover {
+        background-color: var(--color-black-900);
+        border-color: solid var(--color-blue-600);
+        color: var(--color-blue-600);
+    }
+}

@@ -1,0 +1,76 @@
+.formContainer {
+    color: var(--color-white-200);
+}
+
+.inputGroup {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-top: 60px;
+}
+
+.inputGroup label {
+    font-weight: 600;
+    font-size: clamp(16px, 4vw, 20px);
+    line-height: 24px;
+}
+
+.inputGroup textarea {    
+    width: auto;
+    height: 220px;
+    background-color: transparent;
+    border: 3px solid var(--color-black-700);    
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: clamp(16px, 4vw, 20px);
+    font-weight: 600;
+    line-height: 24px;
+    color: var(--color-gray-200);
+    margin-bottom: 60px;
+    resize: none;
+} 
+
+.inputGroup textarea:focus{
+    outline: 3px solid var(--color-gray-700);
+    border-color: transparent;
+}
+ 
+.button {
+    display: flex;
+    gap: 30px;
+    padding-bottom: 30px;    
+}
+
+/*Estilização Modal*/
+.modalInputGroup label{
+    margin-top: -20px;
+}
+
+.modalInputGroup textarea {
+    height: 112px;   
+    margin-top: -10px;
+}
+
+.modalButton {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+    .containerInput {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .inputGroup {
+        margin-top: 30px;
+    }
+
+    .button {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}

@@ -1,0 +1,23 @@
+.category {
+   max-width: 432px;
+   height: 70px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: var(--color-white-200);
+   border-radius: 15px;
+   margin: 30px 42px;
+   
+}
+
+.category h3 {
+   font-size: clamp(24px, 4vw, 32px);
+   font-weight: 800px;
+   list-style: 28px;
+}
+
+@media (max-width: 768px) {
+   .category {
+      max-width: 286px;
+   }
+}

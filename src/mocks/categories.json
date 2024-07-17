@@ -1,0 +1,20 @@
+{
+    "categoriesList": 
+    [
+        {
+            "id": 1,
+            "name": "BACK END",
+            "color": "#00C86F"
+        } ,   
+        {
+            "id": 2,
+            "name": "FRONT END",
+            "color": "#6BD1FF"
+        } , 
+        {
+            "id": 3,
+            "name": "MOBILE",
+            "color": "#FFBA05"
+        } 
+    ]
+}

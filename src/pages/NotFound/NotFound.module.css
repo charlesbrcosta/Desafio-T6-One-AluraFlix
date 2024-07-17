@@ -1,0 +1,19 @@
+.container {
+    margin-top: 150px;
+    height: 52vh;
+    text-align: center;
+    overflow: hidden;
+    color: var(--color-white-200);
+}
+
+.container h2 {
+    font-size: clamp(38px, 4vw, 58px);
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+
+.container p {    
+    font-size: clamp(28px, 4vw, 48px);
+    font-weight: 500;
+    margin-bottom: 150px;
+}

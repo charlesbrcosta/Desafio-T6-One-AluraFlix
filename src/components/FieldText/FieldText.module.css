@@ -1,0 +1,21 @@
+.fieldText {
+    display: flex;
+    flex-direction: column;
+}
+
+.fieldText input {
+    height: 62px;
+    background-color: transparent;
+    border: 3px solid var(--color-black-700);    
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: clamp(16px, 4vw, 20px);
+    font-weight: 600;
+    line-height: 24px;
+    color: var(--color-gray-200);
+}
+
+.fieldText input:focus {
+    outline: 3px solid var(--color-gray-700);  
+    border-color: transparent;
+}

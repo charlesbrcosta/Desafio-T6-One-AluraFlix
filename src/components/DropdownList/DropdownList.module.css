@@ -1,0 +1,28 @@
+.dropdownList {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.dropdownList select {
+    height: 62px;
+    font-weight: 600;
+    font-size: clamp(16px, 4vw, 20px);
+    line-height: 24px;
+    background-color: transparent;
+    color: var(--color-white-200);
+    border: 3px solid var(--color-black-700);    
+    border-radius: 10px;
+    color: var(--color-gray-200);
+}
+
+.dropdownList select:focus {
+    outline: 3px solid var(--color-gray-700); 
+    border-color: transparent;
+}
+
+.dropdownList select option {
+    background-color: var(--color-gray-700);
+    font-weight: 600;
+    font-size: clamp(16px, 4vw, 20px);
+}
