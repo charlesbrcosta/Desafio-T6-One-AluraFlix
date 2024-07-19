@@ -63,3 +63,16 @@
     top: 0;
     left: 0;
 }
+
+/* @media (max-width: 1024px) {
+    .banner {
+        margin-bottom: 115px;
+    }
+}
+ */
+@media (max-width: 530px) {
+    .banner {
+        display: none;
+        margin-bottom: 115px;
+    }
+}

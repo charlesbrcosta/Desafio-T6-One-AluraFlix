@@ -8,3 +8,20 @@
     white-space: nowrap;
     padding-bottom: 15px; /* Adiciona espaço no final para melhorar a rolagem */
 }
+
+@media (max-width: 1024px) {
+    .cardCategory {
+        text-align: center;
+    }
+
+    .cardCategory > :first-child {
+        display: inline-block;
+    }
+}
+
+@media (max-width: 524px) {
+    .cardCategory {
+        display: flex;
+        flex-direction: column;
+    }
+}

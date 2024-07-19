@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useState } from 'react';
 import { Banner } from '../../components/Banner';
 import { Category } from '../../components/Category';
 import { Cards } from '../../components/Cards';
@@ -7,8 +7,9 @@ import { Modal } from '../../components/Modal';
 import { VideoModal } from '../../components/VideoModal';
 import { Form } from '../../components/Form';
 import categoriesData from '../../mocks/categories.json';
-import bannerDefault from '/banner.svg';
+import bannerDefault from '/banner.png';
 import styles from './Home.module.css';
+import { Footer } from '../../components/Footer';
 
 export const Home = () => {
     const { cards, removeCard } = useCards();
@@ -57,7 +58,7 @@ export const Home = () => {
                     color={getCategoryColor(selectedCard.category)}
                 />
             ) : (
-                <Banner src={bannerDefault} />
+                <Banner src={bannerDefault} className={styles.banner}/>
             )}
             {categoriesData.categoriesList.map(category => {
                 const filteredCards = cards.filter(card => card.category === category.name);

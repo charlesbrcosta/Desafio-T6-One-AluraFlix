@@ -11,10 +11,11 @@ export const Header = () => {
     return (
         <header className={`
             ${styles.header}
-            ${isNewVideo ? styles.newVideoHeader: styles.homeHeader}
+            ${isNewVideo ? styles.newVideoHeader : styles.homeHeader}
             `}>
-            <Link to='/'>
-                <Logo src={logo}/>
+            
+            <Link to='/' >
+                <Logo src={logo} />
             </Link>
             <nav className={styles.menu}>
                 <Link to='/'>

@@ -22,3 +22,11 @@ export const Banner = ({ src, category, title, description, thumbnail, color }) 
 };
 
 
+
+
+
+
+
+
+
+

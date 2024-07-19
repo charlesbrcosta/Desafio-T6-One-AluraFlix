@@ -16,9 +16,12 @@
     padding: 20px;
     border-radius: 8px;
     position: relative; 
+    width: 90%;
+    max-width: 640px;
 }
 
 .closeButton {
+    z-index: 1001;
     position: absolute;
     top: 10px;
     right: 10px;
@@ -31,7 +34,29 @@
 }
 
 .videoContainer {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.videoContainer iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    max-width: 640px;
-    max-height: 360px;
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+    .videoModalContent {
+        width: 100%;
+        max-width: 540px;
+    }
+}
+
+@media (max-width: 578px) {
+    .videoModalContent {
+        width: 100%;
+        max-width: 440px;
+    }
 }

@@ -4,8 +4,8 @@ import styles from './VideoModal.module.css';
 
 export const VideoModal = ({ videoId, onClose, color }) => {
     const opts = {
-        height: '360',
-        width: '640',
+        /* height: '360',
+        width: '640', */
         playerVars: {
             autoplay: 1,
         },

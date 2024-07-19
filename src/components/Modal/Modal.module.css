@@ -1,4 +1,5 @@
 .modalContainer {
+    z-index: 1050;
     position: fixed;
     top: 0;
     left: 0;
@@ -31,9 +32,7 @@
 
 .modalContent h2 {
     color: var(--color-blue-500);
-    font-size: 60px;
-    margin: -10px 0;
-    
+    font-size: 60px;    
 }
 
 .closeButton {
@@ -45,4 +44,19 @@
     border: none;
     font-size: 40px;
     cursor: pointer; 
+}
+
+@media (max-width: 600px) {
+    .modalContent h2 {
+        font-size: 45px;
+    }
+    .closeButton {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 500px) {
+    .modalContent h2 {
+        font-size: 35px;
+    }
 }

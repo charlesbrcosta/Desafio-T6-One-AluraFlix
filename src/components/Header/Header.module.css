@@ -20,3 +20,15 @@
 .newVideoHeader {
     background-color: var(--color-black-900);
 }
+
+@media (max-width: 1024px) {
+   .header {
+        padding: 0 20px;
+   }
+}
+
+@media (max-width: 530px) {
+    .header {
+        display: none;
+    }
+ }

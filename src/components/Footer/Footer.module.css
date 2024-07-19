@@ -7,3 +7,18 @@
     border-top: 6px solid var(--color-blue-600);
     margin-top: 60px;
 }
+
+.menu {
+    display: none;
+}
+
+@media (max-width: 530px) {
+    .logo {
+        display: none;
+    }
+
+    .menu {        
+        display: flex;
+        justify-content: space-around;
+    }
+}
