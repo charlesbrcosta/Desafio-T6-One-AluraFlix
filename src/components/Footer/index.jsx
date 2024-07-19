@@ -2,7 +2,6 @@ import { Logo } from "../Logo";
 import { Button } from '../Button';
 import { FiHome, FiPlusCircle } from "react-icons/fi";
 import logo from '/logo.svg';
-import clsx from 'clsx';
 
 import styles from './Footer.module.css';
 import { Link } from "react-router-dom";

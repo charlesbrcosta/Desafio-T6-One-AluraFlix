@@ -23,7 +23,6 @@ export const NewVideo = () => {
             <p>COMPLETO O FORMULÁRIO PARA CRIAR UM NOVO CARD DE VÍDEO</p>
             <h3>Criar Card</h3>
             <Form />
-            {/* <Footer isNewVideoPage={true} /> */}
         </div>
     );
 };
